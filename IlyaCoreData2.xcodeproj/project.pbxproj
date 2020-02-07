@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84491CE623C7556600204148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84491CE523C7556600204148 /* AppDelegate.swift */; };
+		84491CE823C7556600204148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84491CE723C7556600204148 /* SceneDelegate.swift */; };
+		84491CEA23C7556600204148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84491CE923C7556600204148 /* ViewController.swift */; };
+		84491CED23C7556600204148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84491CEB23C7556600204148 /* Main.storyboard */; };
+		84491CF023C7556600204148 /* IlyaCoreData2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84491CEE23C7556600204148 /* IlyaCoreData2.xcdatamodeld */; };
+		84491CF223C7556900204148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84491CF123C7556900204148 /* Assets.xcassets */; };
+		84491CF523C7556900204148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84491CF323C7556900204148 /* LaunchScreen.storyboard */; };
+		84491D0023C756C100204148 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 84491CFF23C756C100204148 /* .swiftlint.yml */; };
+		84FAA15A23C75C6A008A6F24 /* LectorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAA15923C75C6A008A6F24 /* LectorsViewController.swift */; };
+		84FAA15C23C75C7F008A6F24 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAA15B23C75C7F008A6F24 /* StudentsViewController.swift */; };
+		84FAA15E23C75C91008A6F24 /* HomeworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAA15D23C75C91008A6F24 /* HomeworksViewController.swift */; };
+		84FAA16023C75CA6008A6F24 /* MarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAA15F23C75CA6008A6F24 /* MarksViewController.swift */; };
+		84FAA16223C75CB3008A6F24 /* LectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAA16123C75CB3008A6F24 /* LectionsViewController.swift */; };
+		84FAA16523C75D00008A6F24 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAA16423C75D00008A6F24 /* CoreDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84491CE223C7556600204148 /* IlyaCoreData2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlyaCoreData2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84491CE523C7556600204148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84491CE723C7556600204148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84491CE923C7556600204148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84491CEC23C7556600204148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84491CEF23C7556600204148 /* IlyaCoreData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IlyaCoreData2.xcdatamodel; sourceTree = "<group>"; };
+		84491CF123C7556900204148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84491CF423C7556900204148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84491CF623C7556900204148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84491CFF23C756C100204148 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		84FAA15923C75C6A008A6F24 /* LectorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectorsViewController.swift; sourceTree = "<group>"; };
+		84FAA15B23C75C7F008A6F24 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		84FAA15D23C75C91008A6F24 /* HomeworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworksViewController.swift; sourceTree = "<group>"; };
+		84FAA15F23C75CA6008A6F24 /* MarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksViewController.swift; sourceTree = "<group>"; };
+		84FAA16123C75CB3008A6F24 /* LectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectionsViewController.swift; sourceTree = "<group>"; };
+		84FAA16423C75D00008A6F24 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84491CDF23C7556600204148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84491CD923C7556600204148 = {
+			isa = PBXGroup;
+			children = (
+				84491CFF23C756C100204148 /* .swiftlint.yml */,
+				84491CE423C7556600204148 /* IlyaCoreData2 */,
+				84491CE323C7556600204148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84491CE323C7556600204148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84491CE223C7556600204148 /* IlyaCoreData2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84491CE423C7556600204148 /* IlyaCoreData2 */ = {
+			isa = PBXGroup;
+			children = (
+				84FAA16323C75CE4008A6F24 /* CoreData */,
+				84FAA15823C75C2C008A6F24 /* Controllers */,
+				84491CE523C7556600204148 /* AppDelegate.swift */,
+				84491CE723C7556600204148 /* SceneDelegate.swift */,
+				84491CE923C7556600204148 /* ViewController.swift */,
+				84491CEB23C7556600204148 /* Main.storyboard */,
+				84491CF123C7556900204148 /* Assets.xcassets */,
+				84491CF323C7556900204148 /* LaunchScreen.storyboard */,
+				84491CF623C7556900204148 /* Info.plist */,
+				84491CEE23C7556600204148 /* IlyaCoreData2.xcdatamodeld */,
+			);
+			path = IlyaCoreData2;
+			sourceTree = "<group>";
+		};
+		84FAA15823C75C2C008A6F24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84FAA15923C75C6A008A6F24 /* LectorsViewController.swift */,
+				84FAA15B23C75C7F008A6F24 /* StudentsViewController.swift */,
+				84FAA15D23C75C91008A6F24 /* HomeworksViewController.swift */,
+				84FAA15F23C75CA6008A6F24 /* MarksViewController.swift */,
+				84FAA16123C75CB3008A6F24 /* LectionsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84FAA16323C75CE4008A6F24 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				84FAA16423C75D00008A6F24 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84491CE123C7556600204148 /* IlyaCoreData2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84491CF923C7556900204148 /* Build configuration list for PBXNativeTarget "IlyaCoreData2" */;
+			buildPhases = (
+				84491CDE23C7556600204148 /* Sources */,
+				84491CDF23C7556600204148 /* Frameworks */,
+				84491CE023C7556600204148 /* Resources */,
+				84491CFC23C755AE00204148 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlyaCoreData2;
+			productName = IlyaCoreData2;
+			productReference = 84491CE223C7556600204148 /* IlyaCoreData2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84491CDA23C7556600204148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ilya Ilushenko";
+				TargetAttributes = {
+					84491CE123C7556600204148 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84491CDD23C7556600204148 /* Build configuration list for PBXProject "IlyaCoreData2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84491CD923C7556600204148;
+			productRefGroup = 84491CE323C7556600204148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84491CE123C7556600204148 /* IlyaCoreData2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84491CE023C7556600204148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84491D0023C756C100204148 /* .swiftlint.yml in Resources */,
+				84491CF523C7556900204148 /* LaunchScreen.storyboard in Resources */,
+				84491CF223C7556900204148 /* Assets.xcassets in Resources */,
+				84491CED23C7556600204148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84491CFC23C755AE00204148 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84491CDE23C7556600204148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FAA15E23C75C91008A6F24 /* HomeworksViewController.swift in Sources */,
+				84FAA16023C75CA6008A6F24 /* MarksViewController.swift in Sources */,
+				84FAA15A23C75C6A008A6F24 /* LectorsViewController.swift in Sources */,
+				84491CEA23C7556600204148 /* ViewController.swift in Sources */,
+				84FAA15C23C75C7F008A6F24 /* StudentsViewController.swift in Sources */,
+				84491CE623C7556600204148 /* AppDelegate.swift in Sources */,
+				84491CF023C7556600204148 /* IlyaCoreData2.xcdatamodeld in Sources */,
+				84491CE823C7556600204148 /* SceneDelegate.swift in Sources */,
+				84FAA16523C75D00008A6F24 /* CoreDataManager.swift in Sources */,
+				84FAA16223C75CB3008A6F24 /* LectionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84491CEB23C7556600204148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84491CEC23C7556600204148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84491CF323C7556900204148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84491CF423C7556900204148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84491CF723C7556900204148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84491CF823C7556900204148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84491CFA23C7556900204148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlyaCoreData2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.md.IlyaCoreData2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84491CFB23C7556900204148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlyaCoreData2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.md.IlyaCoreData2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84491CDD23C7556600204148 /* Build configuration list for PBXProject "IlyaCoreData2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84491CF723C7556900204148 /* Debug */,
+				84491CF823C7556900204148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84491CF923C7556900204148 /* Build configuration list for PBXNativeTarget "IlyaCoreData2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84491CFA23C7556900204148 /* Debug */,
+				84491CFB23C7556900204148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84491CEE23C7556600204148 /* IlyaCoreData2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84491CEF23C7556600204148 /* IlyaCoreData2.xcdatamodel */,
+			);
+			currentVersion = 84491CEF23C7556600204148 /* IlyaCoreData2.xcdatamodel */;
+			path = IlyaCoreData2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84491CDA23C7556600204148 /* Project object */;
+}
